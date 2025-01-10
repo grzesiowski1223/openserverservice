@@ -11,7 +11,7 @@ case "$response" in
         ;;
     *)
         echo Wychodzi z programu
-        sleep (5s)
+        exit
         ;;
 esac
 
