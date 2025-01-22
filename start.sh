@@ -3,6 +3,8 @@ echo               ──▄▀▀──▀▀▄▄█▄▄█────█
 echo               ▄▀─────────█──█────█
 echo               ────────────▀▀▀▀▀▀▀            
 
+echo PLEASE READ README!!!!
+
 read -r -p "Czy chcesz polaczyc sie z serverem NerdNetwork? [y/N] " response
 case "$response" in
     [yY][eE][sS]|[yY]) 
