@@ -1,0 +1,1 @@
+If you want to type in ip address of your server just edit start.sh with your preferred text editor. And edit ip address
