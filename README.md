@@ -1,7 +1,7 @@
 ## OpenServerService Alpha
 
-- Open setup.sh first and do what it tells you
-
+- Edit start.sh type your server's IP address in IPADDRESS
+- then start the program by bash start.sh
 I was bored and decided to make this.It speeds up my logging for home server via ssh LOL
 
 
