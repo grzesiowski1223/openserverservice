@@ -1,7 +1,7 @@
 echo !!!EDIT THIS FILE WITH WHATEVER TEXT EDITOR YOU USE TO SETUP!!!
 #In brackets type address of your server or address@user etc...
 
-$IPADDRESS=[INSERT SERVER IP ADDRESS]
+IPADDRESS=[INSERT SERVER IP ADDRESS]
 
 
 
