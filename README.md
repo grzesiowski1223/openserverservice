@@ -10,4 +10,5 @@
 I was bored and decided to make this.It speeds up my logging for home server via ssh LOL
 
 
-## SUPPORTS SSH example:(user@192.168.0.1)
+## SUPPORTS SSH 
+example:(user@192.168.0.1)
