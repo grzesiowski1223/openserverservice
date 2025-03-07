@@ -1,6 +1,9 @@
 ## OpenServerService Alpha
 
-- *!!*Edit start.sh type your server's IP address in IPADDRESS*!!*
+
+##!!
+- !!Edit start.sh type your server's IP address in IPADDRESS
+##!!
 - then start the program by 
 ```
   cd Downloads
