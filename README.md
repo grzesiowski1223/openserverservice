@@ -14,7 +14,6 @@ bash install.sh
 - Post instalation just run :
 ```
 oss
-
 ```
 - And you set to go!
 
