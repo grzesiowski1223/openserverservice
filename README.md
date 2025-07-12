@@ -1,11 +1,13 @@
 ## OpenServerService - ssh automation script
 <img src="https://github.com/grzesiowski1223/openserverservice/blob/main/logo.png" alt="OSSlogo"/>
 
-- Start the installator by typing this into terminal **(Linux)** : 
+**Be aware that Windows is not supported at the moment!**
+
+- Start the installator by typing this into terminal : 
 ```
 curl -s https://raw.githubusercontent.com/grzesiowski1223/openserverservice/main/install.sh | bash
 ```
-- Or Install the latest version of our script from the [Releases]([https://github.com/grzesiowski1223/openserverservice/releases/]) tab and run script from Downloads **(MultiPlatform)** :
+- Or Install the latest version of our script from the [Releases]([https://github.com/grzesiowski1223/openserverservice/releases/]) tab and run script from Downloads :
 ```
 cd Downloads
 bash install.sh
