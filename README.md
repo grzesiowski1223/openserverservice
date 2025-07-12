@@ -4,7 +4,6 @@
 - Start the installator by typing this into terminal :
 ```
 curl -s https://raw.githubusercontent.com/grzesiowski1223/openserverservice/main/install.sh | bash
-
 ```
 - Or Install the latest version of our script from the [Releases]([https://github.com/grzesiowski1223/openserverservice/releases/]) tab and run script from Downloads :
 ```
