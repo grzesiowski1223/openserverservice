@@ -1,4 +1,4 @@
-## OpenServerService 1.3.0v
+## OpenServerService - ssh automation script
 <img src="https://github.com/grzesiowski1223/openserverservice/blob/main/logo.png" alt="OSSlogo"/>
 
 - Start the installator by typing this into terminal :
