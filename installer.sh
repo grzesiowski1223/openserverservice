@@ -13,24 +13,31 @@ echo -e "${GREEN}|     | /  \ | /  \ |     |  | |  |  | /  \ |  |  |  |  _  ||  
 echo -e "${GREEN}|     | \    | \    |     |  | |  |  | \    |  |  |  |  |  ||     ||     ||     ||  .  \ ${NC}"
 echo -e "${GREEN} \___/   \___|  \___|    |____||__|__|  \___|  |__|  |__|__||_____||_____||_____||__|\_|${NC}"
 
-read -r -p "Would you like install an OpenServerService command? [y/N] " response
+read -r -p "Would you like to install the OpenServerService command? [y/N] " response
 case "$response" in
-    [yY][eE][sS]|[yY]) 
+    [yY][eE][sS]|[yY])
         echo ""
         read -r -p "Enter the IP address of your server: " ip
+
+        echo ""
         echo "-----------------Downloading------------------"
+        echo ""
+
         curl -s -o oss https://raw.githubusercontent.com/grzesiowski1223/openserverservice/main/oss
-        
+
         if [[ ! -f oss ]]; then
             echo -e "${RED}Download failed. Please check the URL or your internet connection.${NC}"
             exit 1
         fi
-        
+
         sed -i "s|^IPADDRESS=.*$|IPADDRESS=\"$ip\"|" oss
+        
         chmod +x oss
         sudo cp oss /usr/local/bin/
-        echo -e "${GREEN}The instalation is succesfull${NC}"
-        echo "You can now run oss as a command!"
+
+        echo ""
+        echo -e "${GREEN}The installation was successful.${NC}"
+        echo "You can now run 'oss' as a command!"
         ;;
     *)
         echo "Exiting..."
