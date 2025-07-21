@@ -18,7 +18,7 @@ read -r -p "Would you like to install the OpenServerService command? [y/N] " res
 case "$response" in
     [yY][eE][sS]|[yY])
         echo ""
-        read -r -p "Enter the IP address of your server: " ip
+        read -r -p "Enter the IP address of your server OR ssh syntax for example [user@192.168.0.1] : " ip
 
         echo ""
         echo "-----------------Downloading------------------"
